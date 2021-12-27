@@ -12211,11 +12211,11 @@ html {
     color: #1abc9c;
 }
 
-.tools ul {
+.tools > ul {
     padding: 0;
 }
 
-.tools li {
+.tools > ul > li {
     display: inline list-item;
     list-style: square;
 }
