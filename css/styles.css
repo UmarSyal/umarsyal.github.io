@@ -12210,3 +12210,12 @@ html {
 .contact td {
     color: #1abc9c;
 }
+
+.tools ul {
+    padding: 0;
+}
+
+.tools li {
+    display: inline list-item;
+    list-style: square;
+}
