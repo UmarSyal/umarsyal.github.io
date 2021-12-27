@@ -6115,6 +6115,10 @@ textarea.form-control-lg {
     padding: 1rem;
 }
 
+.modal-body img {
+    border: 1px solid;
+}
+
 .modal-footer {
     display: flex;
     flex-wrap: wrap;
@@ -12115,8 +12119,6 @@ html {
 .masthead .masthead-avatar {
     width: 15rem;
     height: 15rem;
-    border: 1px solid transparent;
-    border-radius: 50%;
 }
 
 @media (min-width: 992px) {
@@ -12149,11 +12151,12 @@ html {
 
 .portfolio .python-django .portfolio-item {
     background-color: #103E2E;
-    color: #FFFFFF;
+    color: #FFCA4A;
 }
 
 .portfolio .mean-stack .portfolio-item {
-    background-color: #98BC4E;
+    /* background-color: #98BC4E; */
+    background-color: #E33235;
     color: #F8FEE8;
 }
 

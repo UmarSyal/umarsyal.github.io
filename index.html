@@ -47,7 +47,7 @@
     <header class="masthead bg-primary text-white text-center">
         <div class="container d-flex align-items-center flex-column">
             <!-- Masthead Avatar Image-->
-            <img class="masthead-avatar mb-5" src="assets/img/umar-syal.jpg" alt="..." />
+            <img class="masthead-avatar rounded-circle mb-5" src="assets/img/umar-syal.jpg" alt="..." />
             <!-- Masthead Heading-->
             <h1 class="masthead-heading text-uppercase mb-0">Umar Syal</h1>
             <!-- Icon Divider-->
@@ -75,26 +75,20 @@
             </div>
             <!-- Portfolio Grid Items-->
             <!-- Python/Django Section Heading-->
-            <h4 class="text-center text-uppercase text-secondary mb-0">Python/Django</h4>
+            <!-- <h4 class="text-center text-uppercase text-secondary mb-0">
+                <span style="color: #0071A3;">Pyt</span><span style="color: #FFDC39;">hon</span>/
+                <span style="color: #002A19;">Django</span>
+            </h4> -->
+            <div style="text-align: center;">
+                <img src="assets/img/portfolio/python-django.png" alt="Python/Django"
+                    style="border: 1px solid;height: 3rem;">
+            </div>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
             </div>
 
             <div class="row justify-content-center python-django">
-                <!-- Portfolio 'Django News'-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                        <div
-                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i
-                                    class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <!-- <img class="img-fluid" src="" alt="..." /> -->
-                        <h1>Django News</h1>
-                    </div>
-                </div>
-
                 <!-- Portfolio 'Marketing Company Sales Software'-->
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
@@ -105,6 +99,19 @@
                         </div>
                         <!-- <img class="img-fluid" src="" alt="..." /> -->
                         <h1>Marketing Company Sales Software</h1>
+                    </div>
+                </div>
+
+                <!-- Portfolio 'Django News'-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <!-- <img class="img-fluid" src="" alt="..." /> -->
+                        <h1>Django News</h1>
                     </div>
                 </div>
 
@@ -123,7 +130,15 @@
             </div>
 
             <!-- MEAN Section Heading-->
-            <h4 class=" text-center text-uppercase text-secondary mb-0">MEAN Stack</h4>
+            <!-- <h4 class=" text-center text-uppercase text-secondary mb-0">
+                <span style="color: #419533;">M</span>
+                <span style="color: #FD9325;">E</span>
+                <span style="color: #E03335;">A</span>
+                <span style="color: #98BC4E;">N</span>
+            </h4> -->
+            <div style="text-align: center;">
+                <img src="assets/img/portfolio/mean-stack.jpg" alt="MEAN" style="border: 1px solid;height: 3rem;">
+            </div>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -243,88 +258,6 @@
     </footer>
 
     <!-- Portfolio Modals-->
-    <!-- Portfolio Modal 'Django News'-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header border-0">
-                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body text-center pb-5">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Django News</h2>
-                                <!-- Icon Divider-->
-                                <div class="divider-custom">
-                                    <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/django-news.png"
-                                    alt="..." />
-                                <!-- Portfolio Modal - Text-->
-                                <p class="lead mb-4 description">
-                                    A news website that gets news from some of the top news websites
-                                    like Dawn and Business Recorder etc. and convert & present that news in audio form.
-                                </p>
-
-                                <div class="lead mb-4 features">
-                                    <h4>Features:</h4>
-                                    <ul class="lead">
-                                        <li>
-                                            Authentication and Authorization
-                                        </li>
-                                        <li>
-                                            Set preferences
-                                        </li>
-                                        <li>
-                                            News can be prioritized according to the user’s interests
-                                        </li>
-                                        <li>
-                                            Filter news by different criteria
-                                        </li>
-                                        <li>
-                                            Listen to news in audio with multiple voice options and other controls
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="lead mb-4 tools">
-                                    <h4>Tools:</h4>
-                                    <ul>
-                                        <li>Python</li>
-                                        <li>Django</li>
-                                        <li>Sqlite</li>
-                                        <li>Javascript</li>
-                                    </ul>
-                                    <ul>
-                                        <li>HTML5</li>
-                                        <li>CSS3</li>
-                                        <li>Bootstrap3</li>
-                                        <li>Beautiful Soup</li>
-                                    </ul>
-                                    <ul>
-                                        <li>Redis</li>
-                                        <li>Celery</li>
-                                        <li>Heroku</li>
-                                    </ul>
-                                </div>
-
-                                <button class="btn btn-primary" type="button" data-bs-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Portfolio Modal 'Marketing Company Sales Software'-->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
@@ -361,7 +294,8 @@
                                         <li>Admin can add Stockist and issue stock</li>
                                         <li>Admin can view all Stockists and Customers</li>
                                         <li>Stockist can make a booking</li>
-                                        <li>If a customer is a first timer, their account gets created automatically</li>
+                                        <li>If a customer is a first timer, their account gets created automatically
+                                        </li>
                                         <li>Stockist can deliver a booked product</li>
                                         <li>Commissions get distributed to Stockists and Customers on a booking</li>
                                         <li>Stockist can view only their own customers</li>
@@ -386,7 +320,87 @@
                                     </ul>
                                 </div>
 
-                                <button class="btn btn-primary" type="button" data-bs-dismiss="modal">
+                                <button class="btn btn-danger" type="button" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 'Django News'-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Django News</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <a href="https://news-umarsyal.herokuapp.com/" target="blank">
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/django-news.png"
+                                        alt="django-news.png" />
+                                </a>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="lead mb-4 description">
+                                    A news website that gets news from some of the top news websites
+                                    like Dawn and Business Recorder etc. and convert & present that news in audio form.
+                                </p>
+
+                                <div class="lead mb-4 features">
+                                    <h4>Features:</h4>
+                                    <ul class="lead">
+                                        <li>Authentication and Authorization</li>
+                                        <li>Set preferences</li>
+                                        <li>News can be prioritized according to the user’s interests</li>
+                                        <li>Filter news by different criteria</li>
+                                        <li>Listen to news in audio with multiple voice options and other controls</li>
+                                    </ul>
+                                </div>
+
+                                <div class="lead mb-4 tools">
+                                    <h4>Tools:</h4>
+                                    <ul>
+                                        <li>Python</li>
+                                        <li>Django</li>
+                                        <li>Sqlite</li>
+                                        <li>Javascript</li>
+                                    </ul>
+                                    <ul>
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Bootstrap3</li>
+                                        <li>Beautiful Soup</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Redis</li>
+                                        <li>Celery</li>
+                                        <li>Heroku</li>
+                                    </ul>
+                                </div>
+
+                                <a class="btn btn-primary" href="https://news-umarsyal.herokuapp.com/" target="blank">
+                                    <i class="fas fa-globe fa-fw"></i>
+                                    Visit Django News
+                                </a>
+
+                                <button class="btn btn-danger" type="button" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
@@ -418,7 +432,10 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/star-social.png" alt="..." />
+                                <a href="https://social-umarsyal.herokuapp.com/" target="blank">
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/star-social.png"
+                                        alt="star-social.png" />
+                                </a>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="lead mb-4 description">
                                     A kind of a social app where users can post, create and join groups etc.
@@ -427,21 +444,11 @@
                                 <div class="lead mb-4 features">
                                     <h4>Features:</h4>
                                     <ul class="lead">
-                                        <li>
-                                            Authentication and Authorization
-                                        </li>
-                                        <li>
-                                            Create, join or leave groups
-                                        </li>
-                                        <li>
-                                            See posts in groups
-                                        </li>
-                                        <li>
-                                            Crete and delete posts
-                                        </li>
-                                        <li>
-                                            See other people's posts
-                                        </li>
+                                        <li>Authentication and Authorization</li>
+                                        <li>Create, join or leave groups</li>
+                                        <li>See posts in groups</li>
+                                        <li>Crete and delete posts</li>
+                                        <li>See other people's posts</li>
                                     </ul>
                                 </div>
 
@@ -459,7 +466,13 @@
                                         <li>Heroku</li>
                                     </ul>
                                 </div>
-                                <button class="btn btn-primary" type="button" data-bs-dismiss="modal">
+
+                                <a class="btn btn-primary" href="https://social-umarsyal.herokuapp.com/" target="blank">
+                                    <i class="fas fa-globe fa-fw"></i>
+                                    Visit Star Social
+                                </a>
+
+                                <button class="btn btn-danger" type="button" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
@@ -491,37 +504,46 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                <!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." /> -->
                                 <!-- Portfolio Modal - Text-->
                                 <p class="lead mb-4 description">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro odit ducimus eos iure aliquid alias ut, quam quibusdam quidem asperiores quia cum eaque doloribus doloremque. Sapiente minima delectus magni error.
+                                    CRUD operations for a Recipe by consuming Django REST Framework APIs from an
+                                    Angular front-end. User can add Recipe ingredients to a shopping list.
                                 </p>
 
                                 <div class="lead mb-4 features">
                                     <h4>Features:</h4>
                                     <ul class="lead">
-                                        
+                                        <li>Create, view, edit and delete Recipes</li>
+                                        <li>Add, update and remove Ingredients from Recipes</li>
+                                        <li>Add Recipe ingredients to Shopping List</li>
+                                        <li>Save Recipes to MongoDB using Node/Express RESTful APIs</li>
+                                        <li>Authentication and Authorization</li>
                                     </ul>
                                 </div>
 
                                 <div class="lead mb-4 tools">
                                     <h4>Tools:</h4>
-                                    <!-- <ul>
-                                        <li>Python</li>
-                                        <li>Django</li>
-                                        <li>Sqlite</li>
-                                        <li>Javascript</li>
-                                        <li>HTML5</li>
+                                    <ul>
+                                        <li>Angular</li>
+                                        <li>NodeJS</li>
+                                        <li>ExpressJS</li>
+                                        <li>MongoDB</li>
                                     </ul>
                                     <ul>
+                                        <li>TypeScript</li>
+                                        <li>HTML5</li>
                                         <li>CSS3</li>
                                         <li>Bootstrap3</li>
-                                        <li>Beautiful Soup</li>
-                                        <li>Celery</li>
-                                        <li>Heroku</li>
-                                    </ul> -->
+                                    </ul>
                                 </div>
-                                <button class="btn btn-primary" type="button" data-bs-dismiss="modal">
+
+                                <a class="btn btn-primary disabled" href="" target="blank">
+                                    <i class="fas fa-globe fa-fw"></i>
+                                    Visit Recipe Book
+                                </a>
+
+                                <button class="btn btn-danger" type="button" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
@@ -553,37 +575,49 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                <a style="cursor: default;" target="blank">
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/message-board.png"
+                                        alt="message-board.png" />
+                                </a>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="lead mb-4 description">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint consectetur hic odit unde repudiandae quidem, distinctio omnis perspiciatis. Earum dignissimos deleniti tenetur voluptate totam corrupti sapiente magni nihil cupiditate hic.
+                                    An app where users can post whatever is on their mind.
                                 </p>
 
                                 <div class="lead mb-4 features">
                                     <h4>Features:</h4>
                                     <ul class="lead">
+                                        <li>Authentication and Authorization</li>
+                                        <li>Create, view, edit and delete posts</li>
+                                        <li>Add image to post using <em>Multer</em> on the backend</li>
+                                        <li>Save passwords securely using <em>bcrypt</em></li>
                                     </ul>
                                 </div>
 
                                 <div class="lead mb-4 tools">
                                     <h4>Tools:</h4>
-                                    <!-- <ul>
-                                        <li>Python</li>
-                                        <li>Django</li>
-                                        <li>Sqlite</li>
-                                        <li>Javascript</li>
-                                        <li>HTML5</li>
+                                    <ul>
+                                        <li>Angular</li>
+                                        <li>Angular Material</li>
+                                        <li>NodeJS</li>
+                                        <li>ExpressJS</li>
+                                        <li>MongoDB/Mongoose</li>
                                     </ul>
                                     <ul>
+                                        <li>TypeScript</li>
+                                        <li>HTML5</li>
                                         <li>CSS3</li>
-                                        <li>Bootstrap3</li>
-                                        <li>Beautiful Soup</li>
-                                        <li>Celery</li>
-                                        <li>Heroku</li>
-                                    </ul> -->
+                                        <li>Multer</li>
+                                        <li>bcrypt</li>
+                                    </ul>
                                 </div>
 
-                                <button class="btn btn-primary" type="button" data-bs-dismiss="modal">
+                                <a class="btn btn-primary disabled" href="" target="blank">
+                                    <i class="fas fa-globe fa-fw"></i>
+                                    Visit Message Board
+                                </a>
+
+                                <button class="btn btn-danger" type="button" data-bs-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
